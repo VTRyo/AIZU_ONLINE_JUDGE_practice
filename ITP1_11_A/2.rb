@@ -24,7 +24,7 @@ class Dice
   end
 
   def find_right_face(top, front)
-    "SWSWS".each_char {|s|
+    "WNWNW".each_char {|s|
       break if @surface[0] == front
       move(s)
     }
